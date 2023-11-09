@@ -117,6 +117,7 @@ export default function page() {
                 </Link>
             </div>
             <>
+
                 <Link href={"/MFYlar/Oyqiron"}>
                     <div data-aos="fade-up" className='max-w-[1400px] mx-auto w-full shadow-md p-3 bg-white rounded-md flex justify-between items-center h-full mb-3'>
                         <div className='flex items-center gap-1'>
@@ -222,13 +223,6 @@ export default function page() {
                         </div>
                     </div>
                 </Link>
-
-                <div className="flex justify-end">
-                    <button className='px-10 py-2 green text-4xl rounded-md cursor-pointer text-white' onClick={handleToggle1}>
-                        <BiListPlus />
-                    </button>
-                </div>
-
                 {showElements1 && (
                     <>
                         <Link href={"/MFYlar/Yangiobod"}>
@@ -336,13 +330,13 @@ export default function page() {
                                 </div>
                             </div>
                         </Link>
-                        <div className="flex justify-end">
-                            <button className='px-10 py-2 green text-4xl rounded-md cursor-pointer text-white' onClick={handleToggle2}>
-                                <BiListPlus />
-                            </button>
-                        </div>
                     </>
                 )}
+                <div className="flex justify-end">
+                    <button className='px-10 py-2 green text-4xl rounded-md cursor-pointer text-white' onClick={handleToggle2}>
+                        <BiListPlus />
+                    </button>
+                </div>
 
 
                 {showElements2 && (
